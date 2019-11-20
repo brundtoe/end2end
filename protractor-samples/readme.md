@@ -15,10 +15,11 @@ Opdatering af webdriver-manager:
 npx webdriver-manager update
 ```
 
-Starte selenium serveren::
+Starte og standse selenium serveren::
 
 ```
 npx webdriver-manager start
+npx webdriver-manager shutdown
 ```
 
 Server status vises på http://localhost:444/wd/hub
