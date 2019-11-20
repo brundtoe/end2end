@@ -1,16 +1,12 @@
 # Afprøvning af end2end testværktøjer
 
-Hver værktøj afprøves i sin egen mappe
+Hvert værktøj er installeret i sin egen mappe
 
-Da der testes end2end, hvor der ikke er behov for adgang til applikationens sourcecode kan flere apps anvende som testobjekter.
-
+Projekt jstraning envendes som testobjekt i docker container.
 
 ## Puppeteer
 
-Installation
-```
-    npm i puppeteer
-```
+Se mappen Puppeteer-samples
 
 
 
