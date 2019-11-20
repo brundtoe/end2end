@@ -39,4 +39,5 @@ let bookingUrl = `https://www.booking.com/searchresults.en-us.html?label=gen173n
     });
 
     console.dir(hotelData);
+    await browser.close();
 })();
