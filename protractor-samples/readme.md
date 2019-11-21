@@ -4,7 +4,9 @@ Opdateret november 2019
 
 Det er efter npm tilføjelse af npx blevet langt enklere at anvende en lokal installation.
 
+## IMPORTANT
 
+Protractor er reelt kun anvendeligt til brug ved test af Angular Applikationer, da Protractor API er målrettet herimod.
 
 ## installation
 
