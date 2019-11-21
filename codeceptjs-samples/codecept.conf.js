@@ -1,5 +1,6 @@
 exports.config = {
   tests: './test/*_test.js',
+  timeout: 10000,
   output: './output',
   helpers: {
     Puppeteer: {

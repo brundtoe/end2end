@@ -30,3 +30,15 @@ Under initialiseringen vælges Puppeteer som helper.
 
 Initialiseringen opretter en konfigurationsfil **codecept.conf.js**
 
+## opret testcases
+
+```
+npx codeceptjs gt
+```
+
+## Eksekver test
+
+```
+npx codeceptjs run
+npx codeceptjs run -c my.codecept.conf.js
+```
