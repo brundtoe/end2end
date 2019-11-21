@@ -1,6 +1,9 @@
 # Afprøvning af protractor end2end test
 
+Opdateret november 2019
+
 Det er efter npm tilføjelse af npx blevet langt enklere at anvende en lokal installation.
+
 
 
 ## installation
@@ -26,7 +29,7 @@ Server status vises på http://localhost:444/wd/hub
 
 ## konfiguration
 
-Protracotr anvender en konfigurationsfil som eksporterer et JavaScript objekt med konfigurationsoplysningerne.
+Protractor anvender en konfigurationsfil som eksporterer et JavaScript objekt med konfigurationsoplysningerne.
 
 Minimum er en konfig fil **conf.js**:
 
@@ -46,5 +49,12 @@ test udføres:
 - selenium serveren startes **npx webdriver-manager start**
 - test case udføres **npx protractor conf.js**
 
+## Protractor konfigurationen
 
+- Chrome er default browserdriveren der anvendes
+- Jasmine er default testframework
+- optionen directConnect:true gør det overflødigt at anvende webdriver-manager
 
+## Jasmine
+
+Den indlejrede version er Jasmine 2.8.1
