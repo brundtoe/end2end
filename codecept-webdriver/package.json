@@ -1,0 +1,21 @@
+{
+  "name": "codecept-webdriver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run",
+    "webdriver-start": "npx selenium-standalone start",
+    "webdriver-shutdown": "npx selenium-standalone shutdown"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^2.3.5",
+    "selenium-standalone": "^6.16.0"
+  },
+  "devDependencies": {
+    "webdriverio": "^5.16.7"
+  }
+}
