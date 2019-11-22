@@ -62,7 +62,7 @@ test udføres:
 
 **Hvis en enkelt testcase køres, så fejler testen ofte, selvom den burde være successfull**
 
-Fejlrn kan måske skyldes manglende await
+Fejln kan måske skyldes manglende await eller browser cache ved **directConnect: true**
 
 ## Jasmine
 
