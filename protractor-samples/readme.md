@@ -55,7 +55,14 @@ test udføres:
 
 - Chrome er default browserdriveren der anvendes
 - Jasmine er default testframework
-- optionen directConnect:true gør det overflødigt at anvende webdriver-manager
+- optionen **directConnect:true** gør det overflødigt at anvende webdriver-manager. 
+
+
+### running Protractor testcases
+
+**Hvis en enkelt testcase køres, så fejler testen ofte, selvom den burde være successfull**
+
+Fejlrn kan måske skyldes manglende await
 
 ## Jasmine
 
