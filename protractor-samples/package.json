@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "protractor": "^5.4.2"
+    "eslint": "^6.7.0",
+    "protractor": "^5.4.2",
+    "standard": "^14.3.1"
   }
 }
