@@ -2,7 +2,8 @@
 
 Opdateret november 2019
 
-Det er efter npm tilføjelse af npx blevet langt enklere at anvende en lokal installation.
+npm versionen er 5.4.1 med jasmine 2.8.1. opgradering afventer selenium.webdriver frigives i version 4.0.0.
+
 
 ## IMPORTANT
 
@@ -62,8 +63,18 @@ test udføres:
 
 **Hvis en enkelt testcase køres, så fejler testen ofte, selvom den burde være successfull**
 
-Fejln kan måske skyldes manglende await eller browser cache ved **directConnect: true**
+Fejlen opstår typisk med Firefox i directConnect true.
 
-## Jasmine
+Fejlen er ikke set med Chrome.
 
-Den indlejrede version er Jasmine 2.8.1
+Fejlen kan måske skyldes manglende await eller browser cache ved **directConnect: true**
+
+
+**Når Angular ikke anvendes** på de websider der testes, så skal Angular disables med::
+
+   beforeEach(function () {
+        browser.waitForAngularEnabled(false);
+    });
+
+Denne **beforeEach** funktion indsættes i en **describe** block
+
