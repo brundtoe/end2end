@@ -11,9 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "eslint": "^6.7.0",
-    "protractor": "^5.4.2",
-    "standard": "^14.3.1"
+  "devDependencies": {
+    "protractor": "^5.4.2"
   }
 }
