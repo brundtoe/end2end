@@ -14,7 +14,7 @@ Scenario('Get customer', (I) => {
     I.see('forsyth@anymail.com','#id-Email')
 });
 
-Scenario('Get customer fails',(I) => {
+Scenario('Customer not found',(I) => {
     I.fillField('CustomerID','0');
     I.click('Hent kundedata');
     const errorText = 'Der er ikke fundet en kunde med dette kundenummer';

@@ -11,5 +11,5 @@ exports.config = {
   include: {},
   bootstrap: null,
   mocha: {},
-  name: 'codeceptjs-samples'
+  name: 'codeceptjs-puppeteer'
 };
