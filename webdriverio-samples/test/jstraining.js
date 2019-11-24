@@ -1,9 +1,9 @@
 const assert = require('assert');
 
 describe('Jstraining pages',  () => {
-    it('should have the title Training Samples', async () => {
-        await browser.url('http://localhost:3000/index.html');
-        const title = await browser.getTitle();
+    it('should have the title Training Samples', () => {
+        browser.url('http://localhost:3000/index.html');
+        const title = browser.getTitle();
         assert.strictEqual(title, 'Training Samples')
     });
 
