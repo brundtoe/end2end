@@ -15,5 +15,5 @@ exports.config = {
     include: {},
     bootstrap: null,
     mocha: {},
-    name: 'codecept-webdriver'
+    name: 'codeceptjs-webdriver'
 }
