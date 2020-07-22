@@ -43,6 +43,14 @@ exports.config = {
 };
 ```
 
+## opdatering til Protractor 7.0.0
+
+opdateringen medførte af ukendt årsag at selenium-webdriverne ikke starter.
+
+Der anvendes directConnect: true i protractor def for at omgå dette.
+
+Fejlen fandtes ikke på Protractor 5.4.2
+
 ## indledende afprøvning med Jasmine
 
 Jasmine er default testframework og en integreret del af node modulet Protractor.
