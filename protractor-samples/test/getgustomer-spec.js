@@ -14,7 +14,7 @@ describe('Get customer from jstraining', function () {
         expect(navlist.count()).toBe(6);
         expect(navlist.get(0).getText()).toBe('Home');
         const anchor = element.all(by.css('a'));
-        expect(anchor.count()).toBe(10);
+        expect(anchor.count()).toBe(16);
         const updated = element(by.css('#updated'));
         expect(updated.getText()).toBe('Opdateret juni 2019');
         expect(element(by.css('#nav')).isPresent()).toBe(true);
