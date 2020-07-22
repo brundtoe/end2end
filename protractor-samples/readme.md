@@ -43,13 +43,20 @@ exports.config = {
 };
 ```
 
-## opdatering til Protractor 7.0.0
+## protractor og selenium
 
-opdateringen medførte af ukendt årsag at selenium-webdriverne ikke starter.
+protractor anvendes normalt sammen med den bundlede selenium-webdriver.
 
-Der anvendes directConnect: true i protractor def for at omgå dette.
+Nødvendige filer herunder browser driverne downloades med
 
-Fejlen fandtes ikke på Protractor 5.4.2
+> npx webdriver-manager update
+
+Hvis selenium-webdriverne skal startes selvstændigt så kræves 
+
+> apt install openjdk-11-jre
+
+
+
 
 ## indledende afprøvning med Jasmine
 
