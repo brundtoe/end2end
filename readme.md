@@ -8,7 +8,7 @@ Hvert værktøj er installeret i sin egen mappe
 - puppeteer-samples
 - webdriverio-samples
 
-[Projekt jstraining](https://brundtoe@bitbucket.org/brundtoe/jstraining.git) anvendes som testobjekt i docker container.
+[Projekt jstraining](git@bitbucket.org:brundtoe/jstraining.git) anvendes som testobjekt i docker container.
 
 ## Puppeteer
 
